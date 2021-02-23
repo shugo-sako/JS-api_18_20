@@ -1,0 +1,117 @@
+
+*{
+margin: 0 ;
+padding: 0 ;
+box-sizing: border-box;
+}
+
+section{
+    height:150px;
+
+}
+
+.score{
+    color:black;
+    height:20vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.score h2{
+    font-size: 30px;
+
+}
+
+.score p{
+    text-align: center;
+    padding:10px;
+    font-size:25px;
+}
+
+.intro{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+.intro h1{
+    font-size:50px;
+}
+.intro button,
+.options button{
+   width: 150px;
+   height: 50px;
+   border: none;
+   font-size: 20px;
+   cursor: pointer;
+   margin: 50px 0 ;
+}
+
+#jankenpic{
+    display: flex;
+  justify-content: space-evenly;
+}
+
+#result{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    font-size: 24px;
+    border: solid 3px #000000;
+    margin: 0 auto;
+
+}
+
+#joke{
+    margin: auto;
+    text-align: center;
+}
+
+
+#goopic{
+    width: 200px;
+    height: 200px;
+   
+}
+#chokipic{
+    width: 200px;
+    height: 200px;
+    
+}
+#paapic{
+    width: 200px;
+    height: 200px;
+    margin: 0 0%;
+}
+
+.match {
+    display:flex;
+    margin: 20px 40%;
+
+    
+}
+
+.winner{
+    text-align: center;
+    font-size:50px;
+}
+
+.hands{
+ display: flex;
+ width:100px;
+ height: 90px;
+ justify-content: space-around;
+ align-items: center;
+
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:30px;
+}
+
